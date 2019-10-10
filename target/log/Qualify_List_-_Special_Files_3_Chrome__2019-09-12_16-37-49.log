@@ -1,0 +1,31 @@
+2019-09-12 16:37:49 [INFO ] [Qualify List - Special Files][3][StepsHomePage] - [initiTestingChrome] Scenario  Qualify List - Special Files has started
+2019-09-12 16:37:52 [INFO ] [Qualify List - Special Files][3][WebDriverBuilder] - [toWebDriver] Chrome was chosen
+2019-09-12 16:37:52 [INFO ] [Qualify List - Special Files][3][StepsHomePage] - [initiTestingChrome] Scenario  Qualify List - Special Files is running on Chrome
+2019-09-12 16:37:58 [INFO ] [Qualify List - Special Files][3][HomeInteraction] - [navigateToHomePage] User is in the Home Page
+2019-09-12 16:37:58 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:37:59 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:00 [INFO ] [Qualify List - Special Files][3][LoginInteraction] - [sendUserName] User informed the username
+2019-09-12 16:38:00 [INFO ] [Qualify List - Special Files][3][LoginInteraction] - [sendUserName] Username informed was augusto.menin@spcbrasil.org.br
+2019-09-12 16:38:00 [INFO ] [Qualify List - Special Files][3][LoginInteraction] - [clickContinueButton] User submitted the username
+2019-09-12 16:38:00 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:38:01 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:16 [INFO ] [Qualify List - Special Files][3][LoginInteraction] - [sendPassword] User informed the password spcdados@2019
+2019-09-12 16:38:16 [INFO ] [Qualify List - Special Files][3][LoginInteraction] - [clickLoginButton] User submit login information!
+2019-09-12 16:38:16 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:38:17 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:44 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [clickEnrichMenu] Menu Qualificar was clicked
+2019-09-12 16:38:44 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [choosenListType] TIPO == 4
+2019-09-12 16:38:44 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [choosenListType] Pessoa jurídica was choosen
+2019-09-12 16:38:44 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:38:44 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:45 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [clickUploadButton] Starting file selection
+2019-09-12 16:38:49 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [clickUploadButton] File was choosen
+2019-09-12 16:38:52 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [clickUploadButton] File was choosen
+2019-09-12 16:38:52 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:38:52 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:55 [INFO ] [Qualify List - Special Files][3][EnrichistInteraction] - [verifyFile] File has some Cpfs when it should contain only cnpjs
+2019-09-12 16:38:55 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] Taking a screenshot
+2019-09-12 16:38:55 [INFO ] [Qualify List - Special Files][3][SeleniumTestWrapper] - [takeScreenshot] A screenshot was taken
+2019-09-12 16:38:57 [INFO ] [Qualify List - Special Files][3][StepsHomePage] - [closeBrowser] Finishing Qualify List - Special Files
+2019-09-12 16:38:58 [INFO ] [Qualify List - Special Files][3][StepsHomePage] - [closeBrowser] Qualify List - Special Files passed
+2019-09-12 16:39:00 [INFO ] [Qualify List - Special Files][3][StepsHomePage] - [closeBrowser] Browser Chrome was closed

@@ -1,0 +1,882 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 166891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsRegister.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5829865000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.initiTestingChrome(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 120448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsSegmentation.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 52484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsCreateList.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 51351,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaJuridica.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 79292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsEnrich.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 78914,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsLogin.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 77781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaFisica.initiTesting(Scenario)"
+            }
+          }
+        ],
+        "line": 146,
+        "name": "Qualify List - Special Files",
+        "description": "",
+        "id": "\"enriquecimento\";qualify-list---special-files;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4736605502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7324217520,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "I open the homepage",
+            "match": {
+              "location": "StepsHomePage.i_open_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897791075,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I provide the username as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285993858,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "I click continue button",
+            "match": {
+              "location": "StepsLogin.i_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15125148483,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "I verify if the username exists as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsLogin.i_verify_if_the_username_exists_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338817447,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I provide the password as \"spcdados@2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spcdados@2019",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_wrong_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850432972,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I click to login button",
+            "match": {
+              "location": "StepsLogin.i_click_to_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29487200757,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I click on Qualificar Button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Qualificar_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651607853,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I choose the list type as 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsEnrich.i_choose_the_list_type_as(int)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6295408,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I should choose the type of my list as \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsSegmentation.i_should_choose_the_type_of_my_list_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7781418708,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I click on Upload File button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Upload_File_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3377920873,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I verify if file is empty",
+            "match": {
+              "location": "StepsEnrich.i_verify_if_file_is_empty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 131,
+            "name": "@teste6_e"
+          },
+          {
+            "line": 131,
+            "name": "@Chrome"
+          },
+          {
+            "line": 131,
+            "name": "@enrich"
+          },
+          {
+            "line": 131,
+            "name": "@createList"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49464,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsRegister.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4674166811,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.initiTestingChrome(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 55127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsSegmentation.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24921,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsCreateList.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaJuridica.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 33604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsEnrich.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 31339,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsLogin.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 26053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaFisica.initiTesting(Scenario)"
+            }
+          }
+        ],
+        "line": 147,
+        "name": "Qualify List - Special Files",
+        "description": "",
+        "id": "\"enriquecimento\";qualify-list---special-files;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4658105268,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6979932322,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "I open the homepage",
+            "match": {
+              "location": "StepsHomePage.i_open_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 876430938,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I provide the username as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127994690,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "I click continue button",
+            "match": {
+              "location": "StepsLogin.i_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15094275569,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "I verify if the username exists as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsLogin.i_verify_if_the_username_exists_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250650761,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I provide the password as \"spcdados@2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spcdados@2019",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_wrong_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803604993,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I click to login button",
+            "match": {
+              "location": "StepsLogin.i_click_to_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26967127794,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I click on Qualificar Button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Qualificar_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590139547,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I choose the list type as 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsEnrich.i_choose_the_list_type_as(int)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386100,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I should choose the type of my list as \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsSegmentation.i_should_choose_the_type_of_my_list_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7660818188,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I click on Upload File button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Upload_File_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3380852790,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I verify if file is empty",
+            "match": {
+              "location": "StepsEnrich.i_verify_if_file_is_empty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 131,
+            "name": "@teste6_e"
+          },
+          {
+            "line": 131,
+            "name": "@Chrome"
+          },
+          {
+            "line": 131,
+            "name": "@enrich"
+          },
+          {
+            "line": 131,
+            "name": "@createList"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33605,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsRegister.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4706431867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.initiTestingChrome(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 34360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsSegmentation.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 26808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsCreateList.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaJuridica.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsEnrich.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsLogin.initiTesting(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27564,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsPessoaFisica.initiTesting(Scenario)"
+            }
+          }
+        ],
+        "line": 148,
+        "name": "Qualify List - Special Files",
+        "description": "",
+        "id": "\"enriquecimento\";qualify-list---special-files;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4417060169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsHomePage.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6800528463,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "I open the homepage",
+            "match": {
+              "location": "StepsHomePage.i_open_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373492980,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I provide the username as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1417256889,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "I click continue button",
+            "match": {
+              "location": "StepsLogin.i_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15111006564,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "I verify if the username exists as \"augusto.menin@spcbrasil.org.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "augusto.menin@spcbrasil.org.br",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsLogin.i_verify_if_the_username_exists_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312569145,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I provide the password as \"spcdados@2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spcdados@2019",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsLogin.i_provide_the_wrong_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865137866,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I click to login button",
+            "match": {
+              "location": "StepsLogin.i_click_to_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25413626070,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I click on Qualificar Button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Qualificar_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574360057,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I choose the list type as 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsEnrich.i_choose_the_list_type_as(int)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1308696,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I should choose the type of my list as \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsSegmentation.i_should_choose_the_type_of_my_list_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7675264061,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I click on Upload File button",
+            "match": {
+              "location": "StepsEnrich.i_click_on_Upload_File_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3347991910,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I verify if file is empty",
+            "match": {
+              "location": "StepsEnrich.i_verify_if_file_is_empty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 131,
+            "name": "@teste6_e"
+          },
+          {
+            "line": 131,
+            "name": "@Chrome"
+          },
+          {
+            "line": 131,
+            "name": "@enrich"
+          },
+          {
+            "line": 131,
+            "name": "@createList"
+          }
+        ]
+      }
+    ],
+    "name": "\"Enriquecimento\"",
+    "description": "",
+    "id": "\"enriquecimento\"",
+    "keyword": "Feature",
+    "uri": "C:/Users/gsw.mariliam/eclipse-workspace/testes-automatizados2/src/test/resources/functionalTests/Enriquecimento.feature"
+  }
+]

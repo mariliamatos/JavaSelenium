@@ -1,0 +1,13 @@
+selenium\configurations\TypedProperties.class
+utils\database\User.class
+selenium\driver\WebDriverBuilder.class
+selenium\driver\WebDriverConfig.class
+utils\SMTPAuthenticator.class
+utils\database\UserDataBase.class
+utils\DateTimeHelper.class
+selenium\SeleniumFunctions.class
+utils\CpfHelper.class
+utils\ResourceHelper.class
+utils\Attributes.class
+utils\database\ConnectionDataBase.class
+utils\MailHelper.class
